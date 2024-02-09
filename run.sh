@@ -1,0 +1,1 @@
+docker build -t smart_pepper . && docker run -t -i smart_pepper 
