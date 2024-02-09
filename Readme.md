@@ -7,8 +7,11 @@ To get started with development in the Docker container, follow these steps:
     ```
     chmod +x run.sh
     ```
-
-2. Once you are inside the Docker container, navigate to the workspace directory using the following command:
+2. Run the following command to start the Docker container:
+    ```
+    ./run.sh
+    ```
+3. Once you are inside the Docker container, navigate to the workspace directory using the following command:
     ```
     cd workspace
     ```
@@ -18,7 +21,7 @@ To get started with development in the Docker container, follow these steps:
     mkdir workspace
     ```
 
-3. Start developing whatever you want inside the workspace directory.
+4. Start developing whatever you want inside the workspace directory.
 
 To exit the Docker container, simply write `exit` in the terminal.
 
