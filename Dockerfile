@@ -27,6 +27,7 @@ RUN apt-get install -y libldap2-dev
 RUN useradd -ms /bin/bash newuser
 USER newuser
 WORKDIR /home/newuser
+ADD WorkSpace /home/newuser/WorkSpace
 
 RUN wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh || true
 
