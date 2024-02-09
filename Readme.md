@@ -2,11 +2,15 @@
 
 To get started with development in the Docker container, follow these steps:
 
-## For Unix-based systems (Linux and macOS)
 1. Run the following command to make the `run.sh` script executable:
+    ### *For Unix-based systems (Linux and macOS)*
     ```
     chmod +x run.sh
     ```
+    ### *For Windows*
+    For the love of God please turn on [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
+
+## For all systems
 2. Run the following command to start the Docker container:
     ```
     ./run.sh
